@@ -5,7 +5,7 @@ const Recipe = require('./models/Recipe.model');
 // Import of the data from './data.json'
 const data = require('./data');
 
-const MONGODB_URI = 'mongodb+srv://admin:admin@cluster0.nqnrgia.mongodb.net/recipe-app';
+const MONGODB_URI = 'mongodb+srv://USERNAME:PASSWORD@cluster0.nqnrgia.mongodb.net/recipe-app';
 
 async function updateDatabase() {
   // Connection to the database "recipe-app"
